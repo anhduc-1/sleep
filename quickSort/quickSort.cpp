@@ -4,10 +4,10 @@
 #include <random>
 
 using namespace std;
-// hahaha
 
 
 int partition(vector<int>& v, int left, int right) {
+	// chon pivot ngau nhien tranh truong hop xau nhat
 	random_device rd;
 	mt19937 gen(rd());
 	uniform_int_distribution<> idxdistrib(left, right);
